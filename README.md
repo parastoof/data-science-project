@@ -18,3 +18,4 @@
 7. Update the pipeline 
 8. Update the main.py 
 
+![[Home page of the Wine Quality Predictor](assets/app.png)](assets/app.png)
