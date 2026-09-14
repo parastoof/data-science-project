@@ -10,9 +10,9 @@ from src.datascienceproject.entity.config_entity import ModelEvaluationConfig
 from src.datascienceproject.utils.common import save_json
 from pathlib import Path
 
-# os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/parastoof/data-science-project.mlflow"
-# os.environ["MLFLOW_TRACKING_USERNAME"]="parastoof"
-# os.environ["MLFLOW_TRACKING_PASSWORD"]="a55b8c0ae54a9cdd2a268cee2b91031a09e6e24a"
+# os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/USERNAME/data-science-project.mlflow"
+# os.environ["MLFLOW_TRACKING_USERNAME"]="USERNAME"
+# os.environ["MLFLOW_TRACKING_PASSWORD"]="*****"
 
 class ModelEvaluation:
     def __init__(self,config:ModelEvaluationConfig):
