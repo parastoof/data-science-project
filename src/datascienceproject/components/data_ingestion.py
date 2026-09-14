@@ -3,6 +3,7 @@ import urllib.request as request
 from src.datascienceproject import logger
 import zipfile
 from src.datascienceproject.entity.config_entity import DataIngestionconfig
+
 class DataIngestion:
     def __init__(self,config:DataIngestionconfig):
         self.config=config
