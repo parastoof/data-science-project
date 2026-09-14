@@ -26,7 +26,7 @@ python app.py         # start Flask on http://localhost:8080
 ```
 
 <p align="center">
-  <img src="assets/app.png" alt="App screenshot" width="200">
+  <img src="assets/app.png" alt="App screenshot" width="400">
   <br>
   <em>Home page of the Wine Quality Predictor</em>
 </p>
