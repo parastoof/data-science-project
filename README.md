@@ -18,4 +18,15 @@
 7. Update the pipeline 
 8. Update the main.py 
 
-![[Home page of the Wine Quality Predictor](assets/app.png)](assets/app.png)
+## How to run
+
+```bash
+python main.py        # train the pipeline
+python app.py         # start Flask on http://localhost:8080
+```
+
+<p align="center">
+  <img src="assets/app.png" alt="App screenshot" width="200">
+  <br>
+  <em>Home page of the Wine Quality Predictor</em>
+</p>
