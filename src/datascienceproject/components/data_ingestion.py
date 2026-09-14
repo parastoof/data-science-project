@@ -2,10 +2,10 @@ import os
 import urllib.request as request
 from src.datascienceproject import logger
 import zipfile
-from src.datascienceproject.entity.config_entity import DataIngestionconfig
+from src.datascienceproject.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:
-    def __init__(self,config:DataIngestionconfig):
+    def __init__(self,config:DataIngestionConfig):
         self.config=config
 
     def download_file(self):
